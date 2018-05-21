@@ -1,0 +1,99 @@
+    html{   /* for the whole page */
+        background-color: #fcc9fc;
+        font-family: "Verdana";
+        font-size: 20px;
+    }
+    header{ /* everything above the workshop blocks and exlanation */ 
+        width: 1200px;
+    }
+    .uitleg{
+        width: 800px;
+        height: 200px;
+        background-color: #9543ba;
+        padding: 10px;
+        margin-left: 200px;
+        z-index: 1;
+        position: absolute;
+        top: 40%;
+        box-shadow: 0px 0px 20px grey; /* small shadow under box */ 
+    }
+    .uitlegtitel{
+        margin-left: 50px;
+        width: 400px;
+    }
+    .person1{  /* the text in the upper right corner, incl the name of the person signed in */
+        float: left;
+        width: 350px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .person{  /* the name of the person signed in */ 
+        padding-left: 50px;
+    }
+    h1{  /* the word 'workshops' */ 
+        color: #870a82;
+        font-size: 70px;
+        margin-left: 200px;
+        width: 50%;
+        font-family: "Verdana";
+        margin-bottom: 0px;
+        text-shadow: 1px 1px 6px #000000;   /* The shadow behind the letters */ 
+        float: left;
+    }
+    a:link{   /* all links on the page */ 
+        color: #870a82;
+        font-size: 27px;
+        text-decoration: none;
+        display: inline-block;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    a:visited{   /* the links that have been clicked */ 
+        color: #870a82;
+    }
+    a:hover{   /* when you go over a link with your mouse */ 
+        color: darkgoldenrod;
+    }
+    workshops{   /* in a workshop block */ 
+        float: left;
+        width: 250px;
+        height: 150px;
+        margin: 10px 20px;
+        font-family: "Verdana";
+        font-size: 27;
+        background-color: #fcfac2;
+        border-color: #f9f984;
+        border-width: 2px;
+        border-style: solid;
+        padding-top: 20px;
+        box-shadow: 0px 0px 20px grey;
+    }
+    .blok{   /* the block around the workshops */ 
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    st{   /* title workshop on frontpage */ 
+        color: #838412;
+    }
+
+
+/*
+td {
+    padding: 0 10px;
+}
+
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+}
+
+tr.odd {
+    background-color: lightgrey;
+}
+*/
+
+/* This would be the way to go without PHP */
+/*tbody tr:nth-child(odd) {*/
+    /*background-color: lightgrey;*/
+/*}*/

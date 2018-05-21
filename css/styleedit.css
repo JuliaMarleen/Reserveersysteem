@@ -1,0 +1,33 @@
+    html{   /* The whole page */
+        background-color: #fcc9fc;
+    }
+    h1{  /* The title */
+        color: #870a82;
+        font-size: 70px;
+        margin-left: 200px;
+        width: 85%;
+        font-family: "Verdana";
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 6px #000000;
+        float: left;
+    }
+    form{  /* the place for input from the user */
+        margin-left: 220px;
+    }
+    label{  /* the label each input box gets */
+        float: left;
+        width: 100px;
+    }
+    .submit{  /* the submit button */
+        background-color: #ba37b4;
+        border: none;
+        color: #ffffff;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        box-shadow: 0px 0px 20px grey;
+    }

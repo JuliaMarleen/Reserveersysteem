@@ -1,0 +1,34 @@
+    html{ /* for the whole page */
+        background-color: #fcc9fc;
+    }
+    h1{  /* the title 'create workshop' */ 
+        color: #870a82;
+        font-size: 70px;
+        margin-left: 200px;
+        width: 85%;
+        font-family: "Verdana";
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 6px #000000;
+        float: left;
+    }
+    form{  /* the whole form */
+        margin-left: 220px;
+    }
+    label{  /* the label name for what needs to be in the box */
+        float: left;
+        width: 100px;
+    }
+    .submit{  /* the submit button */
+        background-color: #ba37b4;
+        margin-top: 20px;
+        border: none;
+        color: #ffffff;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        box-shadow: 0px 0px 20px grey;
+    }
